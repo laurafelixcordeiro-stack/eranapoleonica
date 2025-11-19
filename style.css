@@ -3,13 +3,14 @@ body{
     background:rgb(15, 85, 236);
     margin: 0px;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
     border-bottom: solid 10px rgb(31, 2, 158);
     padding: 20px;
     font-size: 32px;
-    color: rgb(4, 4, 192);
+    color: rgb(2, 2, 31);
 }
 
 .chamada{
@@ -23,9 +24,13 @@ header{
 .chamada texto{
     margin-right: 5%;
 }
-img{
-    height: 200px;
+h1{
+    font-size: 40px;
 }
+p{
+    font-size: 20px;
+}
+
 .categoria-vídeos{
     display: flex;
     overflow-x: auto;
@@ -34,4 +39,16 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-vídeos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-vídeos img:hover{
+opacity: 1.0;
+border: 1px solid white;
+}
+.categoria h2{
+    color: gold;
 }
